@@ -13,3 +13,5 @@ test_that("output length correctness", {
   expect_equal(length(avgVecList(list(c(15,10), c(1,3,3,3)))), 2)
 })
 
+use_coverage(type = c("codecov", "coveralls"))
+
